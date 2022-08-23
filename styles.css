@@ -157,7 +157,7 @@ main section.two section.learn div.part {
 }
 
 main section.two section.learn div.part img {
-  width: 25vw;
+  width: 30vw;
   height: 20vw;
 }
 
@@ -289,4 +289,14 @@ main section.seven div.say p {
       -ms-flex: 1 1 300px;
           flex: 1 1 300px;
 }
+
+@media screen and (max-width: 690px) {
+  div.part img {
+    width: 60vw;
+    height: 40vw;
+  }
+}
+
+
+
 /*# sourceMappingURL=styles.css.map */

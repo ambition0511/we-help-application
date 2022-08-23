@@ -100,7 +100,7 @@ main {
                 width: 30vw;
                 flex: 1 1 300px;
                 img {
-                    width: 25vw;
+                    width: 30vw;
                     height: 20vw;
                 }
                 ul {
@@ -191,6 +191,19 @@ main {
             }
         }
         
+    }
+}
+
+@media screen and (max-width : 690px) {
+    main {
+        section.two {
+            section.learn {
+                div.part img {
+                    width: 60vw;
+                    height: 40vw;
+                }
+            }
+        }
     }
 }
 
