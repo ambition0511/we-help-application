@@ -291,12 +291,9 @@ main section.seven div.say p {
 }
 
 @media screen and (max-width: 690px) {
-  div.part img {
+  main section.two section.learn div.part img {
     width: 60vw;
     height: 40vw;
   }
 }
-
-
-
 /*# sourceMappingURL=styles.css.map */
